@@ -148,10 +148,10 @@ return [
         /*
          * External service providers
          */
-//		'Hlogeon\Scms\ScmsServiceProvider',
+		'Hlogeon\Scms\ScmsServiceProvider',
 //        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 //        'Barryvdh\Debugbar\ServiceProvider',
-//        'Kris\LaravelFormBuilder\FormBuilderServiceProvider'
+        'Kris\LaravelFormBuilder\FormBuilderServiceProvider'
 
 	],
 
@@ -205,7 +205,7 @@ return [
         /*
          * External Aliases
          */
-//        'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder'
+        'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder'
 
 	],
 
