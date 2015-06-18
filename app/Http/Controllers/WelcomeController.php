@@ -34,7 +34,7 @@ class WelcomeController extends Controller {
 	public function index()
 	{
         $types = Type::all();
-		return redirect('hlogeon-scms.list', ['model' => $types[0]->id]);
+		return redirect(route('hlogeon-scms.list', ['model' => $types[0]->id]));
 	}
 
 
