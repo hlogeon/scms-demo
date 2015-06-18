@@ -1,0 +1,11 @@
+@media (max-width: 435px) {
+  .container .reg-form {
+    width: 250px;
+  }
+  .container .reg-form .offset-list {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/*# sourceMappingURL=grid.css.map */

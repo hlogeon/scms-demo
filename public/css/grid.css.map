@@ -1,0 +1,1 @@
+{"version":3,"sources":["grid.less","grid.css"],"names":[],"mappings":"AAQC;EAPA;IACC,cAAA;ICCC;EDFF;IAGE,kBAAA;IACA,oBAAA;ICEA;EACF","file":"grid.css","sourcesContent":["@media (max-width: 435px) {\n\t.container .reg-form {\n\t\twidth: 250px;\n\t\t.offset-list {\n\t\t\tmargin-left: 0px;\n\t\t\tmargin-bottom: 0px;\n\t\t}\n\t}\n}",null],"sourceRoot":"/source/"}
