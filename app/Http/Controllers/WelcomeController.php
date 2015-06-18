@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use App\BusinessArea;
+use Hlogeon\Scms\Models\Type;
 
 class WelcomeController extends Controller {
 
@@ -32,7 +33,8 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return \View::make('welcome');
+        $types = Type::all();
+		return redirect('hlogeon-scms.list', ['model' => $types[0]->id]);
 	}
 
 
